@@ -1,5 +1,5 @@
-Set up structure
-The URL for the website hosting is vahed.co.uk/public.
+/**Set up structure**/
+
 To set up the application in your server you need to create MYSQL database called “testdb”. Then run the command “php artisan migrate” as command line arguments to create database tables. Then to seed photos table with the provided data the following commands need to be executed:
 php artisan db:seed
 There is no password to connect to the database; otherwise password could be added to .env file configuration. 
