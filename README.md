@@ -10,18 +10,18 @@ column in the data) and button to download the data.
 
 ### Data Sources
 Import from 4 data sources provided:
-• CSV x2 (Each CSV has its columns formatted slightly differently – you could abstract the common
+* CSV x2 (Each CSV has its columns formatted slightly differently – you could abstract the common
 components)
-• JSON
-• XML
+* JSON
+* XML
 Each source will provide all the data you need but in different formats.
 The files can be stored anywhere, and the paths can be hardcoded in your script.
 ### Exported CSV
 All data must be formatted consistently regardless of the original format. The outputted CSV must
 include:
-• Order Date
-• Name
-• Sub Total
-• VAT Value
-• VAT Percentage
-• Total
+* Order Date
+* Name
+* Sub Total
+* VAT Value
+* VAT Percentage
+* Total
